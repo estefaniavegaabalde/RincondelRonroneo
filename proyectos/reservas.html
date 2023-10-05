@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas | Rincon del Ronroneo</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.0/main.min.css' rel='stylesheet' />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <img src="../assets/logo_rincon.jpeg" alt="Logo" class="logo">
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html" class="menu-link">Inicio</a></li>
+                <li><a href="./contactanos.html" class="menu-link">Contactanos</a></li>
+                <li><a href="./instalaciones_y_equipos.html" class="menu-link">Equipo e instalaciones</a></li>
+                <li><a href="./Historias_felinas.html" class="menu-link">Historias felinas</a></li>
+                <li><a href="./reservas.html" class="menu-link">Reservas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <div class="container mt-5">
+        <h1>Reserva tu estadía</h1>
+    
+        <div class="row mt-4">
+            <!-- Sección de la imagen -->
+            <div class="col-md-3 d-flex align-items-center justify-content-center" style="height: 100%;">
+                <img src="../assets/fotos_equipos/foto11.jpg" alt="Descripción de la imagen" class="img-fluid">
+            </div>
+    
+            <!-- Sección del almanaque -->
+            <div class="col-md-3">
+                <div id="calendar"></div>
+            </div>
+    
+            <!-- Sección del formulario -->
+            <div class="col-md-6">
+                <form id="reserva-form">
+                    <div class="input-group mb-3">
+                        <label for="check-in">Check-In:</label>
+                        <input type="date" id="check-in" name="check-in" class="form-control" required>
+                    </div>
+                    <div class="input-group mb-3">
+                        <label for="check-out">Check-Out:</label>
+                        <input type="date" id="check-out" name="check-out" class="form-control" required>
+                    </div>
+                    <div class="input-group mb-3">
+                        <label for="Cantidad de gatos">Cantidad de gatos:</label>
+                        <select id="habitaciones" name="habitaciones" class="form-control">
+                            <option value="1">1 gato</option>
+                            <option value="2">2 gatos</option>
+                            <option value="3">3 gatos</option>
+                            <option value="4">4 gatos</option>
+                            <option value="5">5 gatos</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <button type="submit" class="btn btn-primary">Reservar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+    
+
+
+
+</main>
+<footer class="site-footer">
+    <div class="footer-logo">
+        <img src="../assets/logo_rincon.jpeg" alt="Logo">
+    </div>
+    <div class="footer-contact">
+        <div class="contact-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Av. Juan Bautista Justo 5800, Ciudad Autónoma de Buenos Aires</p>
+        </div>
+        <div class="contact-info">
+            <i class="fas fa-envelope"></i>
+            <p>rincondelronroneo@gmail.com</p>
+        </div>
+        <div class="contact-info">
+            <i class="fas fa-phone"></i>
+            <p>Teléfono: +54 31 1111-1111</p>
+        </div>
+    </div>
+</footer>
+  <!-- Asegúrate de incluir el JS de Bootstrap y sus dependencias para que todo funcione correctamente -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+
+</body>
+</html>

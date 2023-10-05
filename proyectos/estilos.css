@@ -1,0 +1,509 @@
+
+@media (max-width: 768px) {
+    /* Modificar estilos para pantallas pequeñas aquí */
+    body {
+        background-image: url('/assets/imagenes/foto_inicio_mobil.jpg'); /* Cambiar imagen de fondo */
+    }
+    body {
+        background-image: url('/assets/imagenes/foto_inicio_mobil.jpg'); /* Cambiar imagen de fondo */
+    }
+
+    .site-header {
+        flex-direction: column; /* Cambiar la dirección de los elementos en el encabezado */
+    }
+
+    .logo {
+        margin: 10px auto; /* Centrar el logo */
+    }
+
+    .menu {
+        flex-direction: column; /* Colocar los elementos del menú en una columna */
+    }
+
+    .menu-link {
+        margin: 5px 0; /* Espaciado entre enlaces del menú */
+    }
+
+    /* Ajustar otros estilos según sea necesario */
+}
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Elsie+Swash+Caps:wght@400;900&family=Martel+Sans:wght@200;900&display=swap');
+
+.fuentetitulo { 
+    font-family: 'Elsie Swash Caps', cursive;
+    font-weight: 400;    
+    font-size: 3rem;
+}
+
+.fuentesubtitulos {
+    
+    font-family: 'Courgette', cursive;
+}
+
+* p  {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: bold; 
+}
+.cursiva {
+    font-style: italic;
+}
+h2 {
+    background-color: #68b468; 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.card-title {
+    background-color: #68b468; 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+form label {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+form input::placeholder {
+    font-family: 'Martel Sans', sans-serif;
+   
+}
+
+.fuentemasgrande { 
+    font-size: 5vw;
+}
+
+h3, .fuentesubtitulos {
+    color: #ffffff;
+}
+
+/*Parte encabezado*/
+/* Estilos para el encabezado */
+.site-header {
+    background-color: #68b468; 
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el logo  */
+.logo {
+    width: 100px; 
+    height: auto; 
+    margin-left: 20px; 
+}
+
+/* Estilos para la lista de menú */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-link {
+    font-family: 'Courgette', cursive; /* Cambia con la fuente de fuentesubtitulos */
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos para los enlaces del menú al pasar el ratón */
+.menu-link:hover {
+    background-color: #fff; 
+    color: #68b468; 
+}
+
+
+
+/*Parte inicial de la pagina*/
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/assets/imagenes/foto_inicio.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Estilo para la sección de video de fondo */
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Estilo para el video */
+.video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Fondo semi-transparente para el contenido */
+.video-background .contenedor {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Estilos para el contenido en la sección de video de fondo */
+.video-background .contenedor h1 {
+    margin: 0;
+    text-align: center; /* Centra horizontalmente el título */
+}
+
+/* Estilos para el contenido de texto */
+.video-background .texto {
+    text-align: center;
+    padding: 20px 20px; /* Añade margen horizontal de 20px a ambos lados */
+}
+
+.video-background .texto h2,
+.video-background .texto p {
+    margin: 10px;
+}
+
+.RectanguloInicio {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #68b468;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra */
+}
+
+/* Establece la disposición de la sección de formulario como un flex container */
+.RectanguloInicio form {
+    display: flex;
+    flex-direction: row; /* Los elementos se alinearán horizontalmente */
+    align-items: flex-start; /* Los elementos se alinearán en la parte superior */
+    justify-content: flex-start; /* Los elementos se alinearán en la parte izquierda */
+}
+
+/* Aplica estilos para el grupo de etiquetas (Nombre, Apellido, Mail, Teléfono) */
+.RectanguloInicio .input-group {
+    display: flex;
+    flex-direction: column; /* Los elementos se alinearán verticalmente */
+    align-items: flex-start; /* Los elementos se alinearán en la parte izquierda */
+    margin-right: 20px; /* Añade margen a la derecha para separarlos */
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+/* Establece un ancho fijo para las etiquetas si es necesario */
+.RectanguloInicio .input-group label {
+    width: 100px; /* Puedes ajustar el ancho según tus necesidades */
+}
+
+
+
+.RectanguloInicio img {
+    width: 70%; /* Establece un ancho del 90% del rectángulo */
+}
+
+    .seccion_contenedores {
+        display: flex;
+        justify-content: center;
+    }
+/* Estilo para la sección rectangulo_mapa (con márgenes izquierdo y derecho) */
+.rectangulo_mapa {
+    width: 80%; /* Ancho del contenido de la sección */
+    margin: 0 auto; /* Centra la sección horizontalmente */
+    padding: 20px;
+    text-align: center;
+    color: #050404;
+    border-radius: 10px;
+    background-color: #68b468;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+    .rectangulo_mapa iframe {
+        width: 100%; 
+        height: 100%;
+        border: 0;
+    }
+    .no-overflow {
+        height: 100%;  /* Ajusta la altura al 100% del contenedor */
+        overflow: hidden;  /* Evita el desbordamiento del contenido */
+    }
+    
+
+    /*Parte de Reserva*/
+
+
+h1 {
+    background-color: #68b468; 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Estilo para el formulario de reserva */
+#reserva-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los campos de entrada y etiquetas */
+.input-group {
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón de reserva */
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+
+/* parte footer */
+
+.site-footer {
+    background-color: #3a3636; 
+    color: #ffffff; 
+    padding: 40px 0; 
+    text-align: center; 
+}
+
+/* Estilos para el logo en el footer */
+.footer-logo img {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las secciones de información de contacto */
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-bottom: 20px; 
+}
+
+/* Estilos para las información de contacto individual */
+.contact-info {
+    margin: 10px;
+    text-align: left;
+}
+
+/* Estilos para los íconos */
+.contact-info i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Formulario de contacto*/
+
+.formulario-contacto {
+    max-width: 400px; /* Limita el ancho del formulario */
+    margin: 0 auto; /* Centra horizontalmente el formulario */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #68b468;
+}
+.formulario-contacto form {
+    display: flex;
+    flex-direction: column; /* Elementos apilados verticalmente */
+}
+
+/* Estilo para los campos de entrada y etiquetas */
+.formulario-contacto .input-group {
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón de envío */
+.formulario-contacto #enviar {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center; /* Centra el botón horizontalmente */
+}
+
+.recuadros-zigzag {
+    display: flex;
+    flex-direction: column;
+}
+
+.recuadro {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #68b468;
+    color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Estilos para los títulos y subtítulos */
+.recuadro h4 {
+    font-family: 'Elsie Swash Caps', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #68b468;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.recuadro .fuentesubtitulos {
+    font-family: 'Courgette', cursive;
+}
+
+/* Estilo para el texto dentro de los recuadros */
+.recuadro .texto-recuadro {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* Estilo para la sección de imagen y texto */
+.imagen-y-texto {
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    background-color: #68b468; /* Color de fondo */
+}
+
+/* Estilo para el contenedor de la imagen */
+.imagen-container {
+    flex: 1; /* Toma todo el ancho disponible */
+    padding: 20px; /* Espaciado interior alrededor de la imagen */
+}
+
+.imagen-izquierda {
+    width: 50%; /* Ancho fijo del 50% */
+    padding-left: 40vh; /* Margen solo en el lado izquierdo */
+    box-sizing: border-box; /* Incluye el espaciado en el ancho total */
+}
+
+/* Estilo para el contenedor de texto */
+.texto-container {
+    flex: 2; /* Toma el doble de ancho que el contenedor de imagen */
+    padding: 20px; /* Espaciado interior alrededor del texto */
+}
+
+/* Estilo para el título del texto */
+.texto-container .fuentetitulo {
+    font-family: 'Elsie Swash Caps', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #fff;
+}
+
+/* Estilo para el texto dentro del recuadro */
+.texto-container .texto-recuadro {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contenido-imagen-texto {
+    display: flex; /* Activa el modelo Flexbox para alinear elementos en fila */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Distribuye los elementos en ambos lados */
+}
+
+.texto-derecha {
+    width: 45%; /* Ancho fijo para el texto */
+    padding: 20px; /* Espaciado alrededor del texto */
+    border: 10px solid #68b468; /* Bordes alrededor del texto */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.imagen-derecha {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el título y texto a la izquierda */
+.texto-izquierda {
+    width: 45%;
+    padding: 20px;
+    border: 10px solid #68b468;
+    border-radius: 10px;
+}
+
+.carousel-inner img {
+    width: 100%;      /* asegura que la imagen ocupe todo el ancho de su contenedor */
+    height: auto;     /* permite que la altura se ajuste automáticamente basándose en el ancho */
+    max-height: none; /* eliminamos la restricción de max-height por ahora */
+}
+
+
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    z-index: 10; /* Un valor alto para asegurar que esté por encima de otros elementos */
+}
+.carousel {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.centered-text {
+    text-align: center;
+    margin:10vh;  /* Ajusta el valor según lo que necesites */
+}
+
+.image-container {
+    width: 100px; /* Ancho del círculo */
+    height: 100px; /* Alto del círculo */
+    border: 3px solid #333;
+    border-radius: 50%; /* Redondea las esquinas para crear el círculo */
+    overflow: hidden; /* Esto garantiza que la imagen no se salga del contenedor */
+    margin: auto; /* Centrar */
+    background-position: center; /* Centrar la imagen de fondo */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    background-size: cover; /* Asegurar que la imagen cubra todo el contenedor */
+}
+
+
+
+
+
+
+
+
+
+
+

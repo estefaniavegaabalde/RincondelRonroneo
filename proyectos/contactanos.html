@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos | Rincon del Ronroneo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="site-header">
+        <img src="../assets/logo_rincon.jpeg" alt="Logo" class="logo">
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html" class="menu-link">Inicio</a></li>
+                <li><a href="./contactanos.html" class="menu-link">Contactanos</a></li>
+                <li><a href="./instalaciones_y_equipos.html" class="menu-link">Equipo e instalaciones</a></li>
+                <li><a href="./Historias_felinas.html" class="menu-link">Historias felinas</a></li>
+                <li><a href="./reservas.html" class="menu-link">Reservas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 class="fuentetitulo">Contactanos</h1>
+            <div class="seccion_contenedores">
+                <div class="formulario-contacto">
+                    <h2 class="fuentesubtitulos">Formulario de Contacto</h2>
+                    <form action="validar.html">
+                        <div class="input-group">
+                            <label for="nombre">Nombre</label>
+                            <input id="nombre" name="nombre" type="text" placeholder="Ingrese Nombre" minlength="3" maxlength="50" required autofocus autocomplete="off">
+                        </div>
+                        <div class="input-group">
+                            <label for="apellido">Apellido</label>
+                            <input id="apellido" name="apellido" type="text" placeholder="Ingrese Apellido" minlength="3" maxlength="50" required autofocus autocomplete="off">
+                        </div>
+                        <div class="input-group">
+                            <label for="mail">Mail</label>
+                            <input id="mail" name="mail" type="email" placeholder="ejemplo@mail.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="telefono">Teléfono</label>
+                            <input id="telefono" name="telefono" type="text" placeholder="31 1111-1111" required>
+                        </div>
+                        <fieldset>
+                            <legend>Indique un Comentario</legend>
+                            <textarea name="comentario" id="comentario" cols="30" rows="5" placeholder="Ingrese un Comentario" maxlength="200"></textarea>
+                        </fieldset>
+                        <div class="input-group">
+                            <input id="enviar" type="submit" value="Enviar" class="btn btn-primary mt-3" style="background-color: #4CAF50; border-color: #006400;">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <section class="seccion_contenedores">
+            <div class="RectanguloInicio">
+                <h2 class="fuentesubtitulos" >Preguntas frecuentes</h2>
+                <h3 class="fuentesubtitulos">¿Cómo es el manejo de la alimentación?</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis adipisci nisi velit officiis laboriosam sit, labore quia in unde nostrum laborum cupiditate architecto libero aliquam accusamus cumque eveniet accusantium?</p>
+
+                <h3 class="fuentesubtitulos">¿Cómo son los medios de pago?</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis adipisci nisi velit officiis laboriosam sit, labore quia in unde nostrum laborum cupiditate architecto libero aliquam accusamus cumque eveniet accusantium?</p>
+                
+                <h3 class="fuentesubtitulos">¿Puede hospedarse mi gato con Vif (Virus inmunodeficiencia felina) -Vilef (Virus de Leucemia Felina)?</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis adipisci nisi velit officiis laboriosam sit, labore quia in unde nostrum laborum cupiditate architecto libero aliquam accusamus cumque eveniet accusantium?</p>
+
+                <h3 class="fuentesubtitulos">¿Me envían actualizaciones de la estadía de mi gato, fotos y videos?</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis adipisci nisi velit officiis laboriosam sit, labore quia in unde nostrum laborum cupiditate architecto libero aliquam accusamus cumque eveniet accusantium?</p>
+                
+                <h3 class="fuentesubtitulos" >¿Qué vacunas tiene que tener mi gato para poder hospedarse?</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis adipisci nisi velit officiis laboriosam sit, labore quia in unde nostrum laborum cupiditate architecto libero aliquam accusamus cumque eveniet accusantium?</p>
+                
+                <h3 class="fuentesubtitulos">No sé si mi gato puede llevarse bien con otros felinos ¿Cómo se hace en esas situaciones?</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis adipisci nisi velit officiis laboriosam sit, labore quia in unde nostrum laborum cupiditate architecto libero aliquam accusamus cumque eveniet accusantium?</p>
+        
+    </section>
+
+
+    </main>
+    <footer class="site-footer">
+        <div class="footer-logo">
+            <img src="../assets/logo_rincon.jpeg" alt="Logo">
+        </div>
+        <div class="footer-contact">
+            <div class="contact-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Av. Juan Bautista Justo 5800, Ciudad Autónoma de Buenos Aires</p>
+            </div>
+            <div class="contact-info">
+                <i class="fas fa-envelope"></i>
+                <p>rincondelronroneo@gmail.com</p>
+            </div>
+            <div class="contact-info">
+                <i class="fas fa-phone"></i>
+                <p>Teléfono: +54 31 1111-1111</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
