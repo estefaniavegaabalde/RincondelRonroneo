@@ -82,14 +82,7 @@ h3, .fuentesubtitulos {
 
 /*Parte encabezado*/
 /* Estilos para el encabezado */
-.site-header {
-    background-color: #68b468; 
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
+
 
 /* Estilos para el logo  */
 .logo {
@@ -98,13 +91,7 @@ h3, .fuentesubtitulos {
     margin-left: 20px; 
 }
 
-/* Estilos para la lista de menú */
-.menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+
 
 .menu-link {
     font-family: 'Courgette', cursive; /* Cambia con la fuente de fuentesubtitulos */
@@ -121,6 +108,12 @@ h3, .fuentesubtitulos {
 .menu-link:hover {
     background-color: #fff; 
     color: #68b468; 
+}
+.mi-navbar-verde {
+    background-color: #4CAF50 !important;
+}
+.navbar-toggler-icon {
+    background-color: white !important; /* Cambia a cualquier color que quieras */
 }
 
 
