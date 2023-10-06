@@ -2,29 +2,29 @@
 @media (max-width: 768px) {
     /* Modificar estilos para pantallas pequeñas aquí */
     body {
-        background-image: url('/assets/imagenes/foto_inicio_mobil.jpg'); /* Cambiar imagen de fondo */
+        background-image: url('/assets/imagenes/foto_inicio_mobil.jpg'); 
     }
     body {
-        background-image: url('/assets/imagenes/foto_inicio_mobil.jpg'); /* Cambiar imagen de fondo */
+        background-image: url('/assets/imagenes/foto_inicio_mobil.jpg'); 
     }
 
     .site-header {
-        flex-direction: column; /* Cambiar la dirección de los elementos en el encabezado */
+        flex-direction: column; 
     }
 
     .logo {
-        margin: 10px auto; /* Centrar el logo */
+        margin: 10px auto; 
     }
 
     .menu {
-        flex-direction: column; /* Colocar los elementos del menú en una columna */
+        flex-direction: column;
     }
 
     .menu-link {
-        margin: 5px 0; /* Espaciado entre enlaces del menú */
+        margin: 5px 0; 
     }
 
-    /* Ajustar otros estilos según sea necesario */
+    
 }
 /*Fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Elsie+Swash+Caps:wght@400;900&family=Martel+Sans:wght@200;900&display=swap');
@@ -94,7 +94,7 @@ h3, .fuentesubtitulos {
 
 
 .menu-link {
-    font-family: 'Courgette', cursive; /* Cambia con la fuente de fuentesubtitulos */
+    font-family: 'Courgette', cursive; 
     text-decoration: none;
     color: #fff;
     padding: 10px 15px;
@@ -113,7 +113,7 @@ h3, .fuentesubtitulos {
     background-color: #4CAF50 !important;
 }
 .navbar-toggler-icon {
-    background-color: white !important; /* Cambia a cualquier color que quieras */
+    background-color: white !important; 
 }
 
 
@@ -160,13 +160,13 @@ body {
 /* Estilos para el contenido en la sección de video de fondo */
 .video-background .contenedor h1 {
     margin: 0;
-    text-align: center; /* Centra horizontalmente el título */
+    text-align: center; 
 }
 
 /* Estilos para el contenido de texto */
 .video-background .texto {
     text-align: center;
-    padding: 20px 20px; /* Añade margen horizontal de 20px a ambos lados */
+    padding: 20px 20px; 
 }
 
 .video-background .texto h2,
@@ -182,35 +182,35 @@ body {
     color: #000000;
     border-radius: 10px;
     background-color: #68b468;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 /* Establece la disposición de la sección de formulario como un flex container */
 .RectanguloInicio form {
     display: flex;
-    flex-direction: row; /* Los elementos se alinearán horizontalmente */
-    align-items: flex-start; /* Los elementos se alinearán en la parte superior */
-    justify-content: flex-start; /* Los elementos se alinearán en la parte izquierda */
+    flex-direction: row; 
+    align-items: flex-start;
+    justify-content: flex-start; 
 }
 
-/* Aplica estilos para el grupo de etiquetas (Nombre, Apellido, Mail, Teléfono) */
+
 .RectanguloInicio .input-group {
     display: flex;
-    flex-direction: column; /* Los elementos se alinearán verticalmente */
-    align-items: flex-start; /* Los elementos se alinearán en la parte izquierda */
-    margin-right: 20px; /* Añade margen a la derecha para separarlos */
-    width: 100%; /* Ocupa todo el ancho disponible */
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-right: 20px; 
+    width: 100%; 
 }
 
-/* Establece un ancho fijo para las etiquetas si es necesario */
+
 .RectanguloInicio .input-group label {
-    width: 100px; /* Puedes ajustar el ancho según tus necesidades */
+    width: 100px; 
 }
 
 
 
 .RectanguloInicio img {
-    width: 70%; /* Establece un ancho del 90% del rectángulo */
+    width: 70%; 
 }
 
     .seccion_contenedores {
@@ -219,8 +219,8 @@ body {
     }
 /* Estilo para la sección rectangulo_mapa (con márgenes izquierdo y derecho) */
 .rectangulo_mapa {
-    width: 80%; /* Ancho del contenido de la sección */
-    margin: 0 auto; /* Centra la sección horizontalmente */
+    width: 80%; 
+    margin: 0 auto; 
     padding: 20px;
     text-align: center;
     color: #050404;
@@ -239,8 +239,8 @@ body {
         border: 0;
     }
     .no-overflow {
-        height: 100%;  /* Ajusta la altura al 100% del contenedor */
-        overflow: hidden;  /* Evita el desbordamiento del contenido */
+        height: 100%; 
+        overflow: hidden; 
     }
     
 
@@ -326,15 +326,15 @@ button[type="submit"]:hover {
 /* Formulario de contacto*/
 
 .formulario-contacto {
-    max-width: 400px; /* Limita el ancho del formulario */
-    margin: 0 auto; /* Centra horizontalmente el formulario */
+    max-width: 400px; 
+    margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
     background-color: #68b468;
 }
 .formulario-contacto form {
     display: flex;
-    flex-direction: column; /* Elementos apilados verticalmente */
+    flex-direction: column; 
 }
 
 /* Estilo para los campos de entrada y etiquetas */
@@ -350,7 +350,7 @@ button[type="submit"]:hover {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    align-self: center; /* Centra el botón horizontalmente */
+    align-self: center; 
 }
 
 .recuadros-zigzag {
@@ -391,26 +391,26 @@ button[type="submit"]:hover {
 
 /* Estilo para la sección de imagen y texto */
 .imagen-y-texto {
-    display: flex; /* Utiliza flexbox para alinear elementos */
-    background-color: #68b468; /* Color de fondo */
+    display: flex;
+    background-color: #68b468; 
 }
 
 /* Estilo para el contenedor de la imagen */
 .imagen-container {
-    flex: 1; /* Toma todo el ancho disponible */
-    padding: 20px; /* Espaciado interior alrededor de la imagen */
+    flex: 1; 
+    padding: 20px; 
 }
 
 .imagen-izquierda {
     width: 50%; /* Ancho fijo del 50% */
-    padding-left: 40vh; /* Margen solo en el lado izquierdo */
-    box-sizing: border-box; /* Incluye el espaciado en el ancho total */
+    padding-left: 40vh; 
+    box-sizing: border-box; 
 }
 
 /* Estilo para el contenedor de texto */
 .texto-container {
-    flex: 2; /* Toma el doble de ancho que el contenedor de imagen */
-    padding: 20px; /* Espaciado interior alrededor del texto */
+    flex: 2; 
+    padding: 20px; 
 }
 
 /* Estilo para el título del texto */
@@ -429,16 +429,16 @@ button[type="submit"]:hover {
 }
 
 .contenido-imagen-texto {
-    display: flex; /* Activa el modelo Flexbox para alinear elementos en fila */
-    align-items: center; /* Centra verticalmente los elementos */
-    justify-content: space-between; /* Distribuye los elementos en ambos lados */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
 }
 
 .texto-derecha {
-    width: 45%; /* Ancho fijo para el texto */
-    padding: 20px; /* Espaciado alrededor del texto */
-    border: 10px solid #68b468; /* Bordes alrededor del texto */
-    border-radius: 10px; /* Borde redondeado */
+    width: 45%; 
+    padding: 20px; 
+    border: 10px solid #68b468; 
+    border-radius: 10px; 
 }
 
 .imagen-derecha {
@@ -456,16 +456,16 @@ button[type="submit"]:hover {
 }
 
 .carousel-inner img {
-    width: 100%;      /* asegura que la imagen ocupe todo el ancho de su contenedor */
-    height: auto;     /* permite que la altura se ajuste automáticamente basándose en el ancho */
-    max-height: none; /* eliminamos la restricción de max-height por ahora */
+    width: 100%;      
+    height: auto;     
+    max-height: none; 
 }
 
 
 
 .carousel-control-prev, .carousel-control-next {
     position: absolute;
-    z-index: 10; /* Un valor alto para asegurar que esté por encima de otros elementos */
+    z-index: 10;
 }
 .carousel {
     width: 50%;
@@ -475,19 +475,19 @@ button[type="submit"]:hover {
 
 .centered-text {
     text-align: center;
-    margin:10vh;  /* Ajusta el valor según lo que necesites */
+    margin:10vh; 
 }
 
 .image-container {
-    width: 100px; /* Ancho del círculo */
-    height: 100px; /* Alto del círculo */
+    width: 100px; 
+    height: 100px;
     border: 3px solid #333;
-    border-radius: 50%; /* Redondea las esquinas para crear el círculo */
-    overflow: hidden; /* Esto garantiza que la imagen no se salga del contenedor */
-    margin: auto; /* Centrar */
-    background-position: center; /* Centrar la imagen de fondo */
-    background-repeat: no-repeat; /* Evitar que la imagen se repita */
-    background-size: cover; /* Asegurar que la imagen cubra todo el contenedor */
+    border-radius: 50%;
+    overflow: hidden; 
+    margin: auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 
