@@ -111,6 +111,8 @@ h3, .fuentesubtitulos {
 }
 .mi-navbar-verde {
     background-color: #4CAF50 !important;
+    position: relative;
+    z-index: 2;
 }
 .navbar-toggler-icon {
     background-color: white !important; 
@@ -147,7 +149,6 @@ body {
 /* Fondo semi-transparente para el contenido */
 .video-background .contenedor {
     position: relative;
-    z-index: 1;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
