@@ -43,7 +43,7 @@
     
         <div class="row mt-4">
             <!-- Sección de la imagen -->
-            <div class="col-md-3 d-flex align-items-center justify-content-center" style="height: 100%;">
+            <div class="col-md-3 d-flex align-items-center justify-content-center">
                 <img src="../assets/fotos_equipos/foto11.jpg" alt="Descripción de la imagen" class="img-fluid">
             </div>
     
@@ -52,18 +52,17 @@
                 <div id="calendar"></div>
             </div>
     
-          
             <div class="col-md-6">
-                <form id="reserva-form">
-                    <div class="input-group mb-3">
+                <form id="reserva-form" class="bg-light p-4 rounded shadow-sm">
+                    <div class="form-group">
                         <label for="check-in">Check-In:</label>
                         <input type="date" id="check-in" name="check-in" class="form-control" required>
                     </div>
-                    <div class="input-group mb-3">
+                    <div class="form-group">
                         <label for="check-out">Check-Out:</label>
                         <input type="date" id="check-out" name="check-out" class="form-control" required>
                     </div>
-                    <div class="input-group mb-3">
+                    <div class="form-group">
                         <label for="Cantidad de gatos">Cantidad de gatos:</label>
                         <select id="habitaciones" name="habitaciones" class="form-control">
                             <option value="1">1 gato</option>
@@ -73,13 +72,12 @@
                             <option value="5">5 gatos</option>
                         </select>
                     </div>
-                    <div class="input-group">
-                        <button type="submit" class="btn btn-primary">Reservar</button>
-                    </div>
+                    <button type="submit" class="btn btn-primary">Reservar</button>
                 </form>
             </div>
         </div>
     </div>
+    
     
     
     
@@ -89,25 +87,42 @@
 
 
 </main>
-<footer class="site-footer">
-    <div class="footer-logo">
-        <img src="../assets/logo_rincon.jpeg" alt="Logo">
-    </div>
-    <div class="footer-contact">
-        <div class="contact-info">
-            <i class="fas fa-map-marker-alt"></i>
-            <p>Av. Juan Bautista Justo 5800, Ciudad Autónoma de Buenos Aires</p>
+<footer class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="footer-logo">
+                    <img src="../assets/logo_rincon.jpeg" alt="Logo" class="img-fluid mb-3" style="max-width: 150px;">
+                </div>
+                <p>Hotel para gatos</p>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <h5>Información de Contacto</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marker-alt mr-2"></i>Av. Juan Bautista Justo 5800, Ciudad Autónoma de Buenos Aires</li>
+                    <li><i class="fas fa-envelope mr-2"></i>rincondelronroneo@gmail.com</li>
+                    <li><i class="fas fa-phone mr-2"></i>Teléfono: +54 31 1111-1111</li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h5>Enlaces rápidos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light">Inicio</a></li>
+                    <li><a href="#" class="text-light">Servicios</a></li>
+                    <li><a href="#" class="text-light">Contacto</a></li>
+                    <li><a href="#" class="text-light">Términos y condiciones</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="contact-info">
-            <i class="fas fa-envelope"></i>
-            <p>rincondelronroneo@gmail.com</p>
-        </div>
-        <div class="contact-info">
-            <i class="fas fa-phone"></i>
-            <p>Teléfono: +54 31 1111-1111</p>
+        
+        <div class="text-center mt-5">
+            <p>&copy; 2023 Rincon del Ronroneo. Todos los derechos reservados.</p>
         </div>
     </div>
 </footer>
+
   <!-- Asegúrate de incluir el JS de Bootstrap y sus dependencias para que todo funcione correctamente -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
