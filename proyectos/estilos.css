@@ -48,14 +48,14 @@
     font-style: italic;
 }
 h2 {
-    background-color: #68b468; 
+    background-color: rgb(97, 139, 97);  
     color: #fff; 
     padding: 10px;
     text-align: center;
     border-radius: 10px;
 }
 .card-title {
-    background-color: #68b468; 
+    background-color: rgb(99, 143, 99); 
     color: #fff; 
     padding: 10px;
     text-align: center;
@@ -107,10 +107,10 @@ h3, .fuentesubtitulos {
 /* Estilos para los enlaces del menú al pasar el ratón */
 .menu-link:hover {
     background-color: #fff; 
-    color: #68b468; 
+    color: rgb(113, 163, 113); 
 }
 .mi-navbar-verde {
-    background-color: #4CAF50 !important;
+    background-color: rgb(113, 163, 113) !important;
     position: relative;
     z-index: 2;
 }
@@ -202,7 +202,7 @@ body {
 
 
 h1 {
-    background-color: #68b468; 
+    background-color: rgb(113, 163, 113); 
     color: #fff; 
     padding: 10px;
     text-align: center;
@@ -257,13 +257,14 @@ h1 {
     background-size: cover; 
 }
 
+/* Animaciones */
+.card {
+    transition: transform 0.3s;
+    cursor: pointer; /* Opcional, para que el usuario sepa que puede interactuar con el card */
+}
 
-
-
-
-
-
-
-
+.card:hover {
+    transform: scale(1.05); /* Ajusta este valor según la magnitud del zoom que desees */
+}
 
 
