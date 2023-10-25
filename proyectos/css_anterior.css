@@ -1,0 +1,269 @@
+
+@media (max-width: 768px) {
+    /* Modificar estilos para pantallas pequeñas aquí */
+    body {
+        background-image: url('/assets/imagenes/foto_inicio_mobil.jpg'); 
+    }
+    body {
+        background-image: url('/assets/imagenes/foto_inicio_mobil.jpg'); 
+    }
+
+    .site-header {
+        flex-direction: column; 
+    }
+
+    .logo {
+        margin: 10px auto; 
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu-link {
+        margin: 5px 0; 
+    }
+
+    
+}
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Elsie+Swash+Caps:wght@400;900&family=Martel+Sans:wght@200;900&display=swap');
+
+.fuentetitulo { 
+    font-family: 'Elsie Swash Caps', cursive;
+    font-weight: 400;    
+    font-size: 3rem;
+}
+
+.fuentesubtitulos {
+    
+    font-family: 'Courgette', cursive;
+}
+
+* p  {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: bold; 
+}
+.cursiva {
+    font-style: italic;
+}
+h2 {
+    background-color: rgb(97, 139, 97);  
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.card-title {
+    background-color: rgb(99, 143, 99); 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+form label {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+form input::placeholder {
+    font-family: 'Martel Sans', sans-serif;
+   
+}
+
+.fuentemasgrande { 
+    font-size: 5vw;
+}
+
+h3, .fuentesubtitulos {
+    color: #ffffff;
+}
+
+/*Parte encabezado*/
+/* Estilos para el encabezado */
+
+
+/* Estilos para el logo  */
+.logo {
+    width: 100px; 
+    height: auto; 
+    margin-left: 20px; 
+}
+
+
+
+.menu-link {
+    font-family: 'Courgette', cursive; 
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos para los enlaces del menú al pasar el ratón */
+.menu-link:hover {
+    background-color: #fff; 
+    color: rgb(113, 163, 113); 
+}
+.mi-navbar-verde {
+    background-color: rgb(113, 163, 113) !important;
+    position: relative;
+    z-index: 2;
+}
+.navbar-toggler-icon {
+    background-color: white !important; 
+}
+
+
+
+/*Parte inicial de la pagina*/
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/assets/imagenes/foto_inicio.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Estilo para la sección de video de fondo */
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Estilo para el video */
+.video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Fondo semi-transparente para el contenido */
+.video-background .contenedor {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Estilos para el contenido en la sección de video de fondo */
+.video-background .contenedor h1 {
+    margin: 0;
+    text-align: center; 
+}
+
+/* Estilos para el contenido de texto */
+.video-background .texto {
+    text-align: center;
+    padding: 20px 20px; 
+}
+
+.video-background .texto h2,
+.video-background .texto p {
+    margin: 10px;
+}
+.seccion_contenedores {
+    display: flex;
+    justify-content: center;
+}
+.responsive-map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;  /* Relación de aspecto 16:9, puedes ajustarlo según tus necesidades */
+}
+
+.responsive-map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.no-overflow {
+    height: 100%; 
+    overflow: hidden; 
+}
+    
+
+    /*Parte de Reserva*/
+
+
+h1 {
+    background-color: rgb(113, 163, 113); 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* parte footer */
+
+/* Aquí mantengo el estilo personalizado para el logo, porque Bootstrap no tiene una clase específica para establecer el ancho máximo de una imagen. */
+.footer-logo img {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.carousel-inner img {
+    width: 100%;      
+    height: auto;     
+    max-height: none; 
+}
+
+
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    z-index: 10;
+}
+.carousel {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.centered-text {
+    text-align: center;
+    margin:10vh; 
+}
+
+.image-container {
+    width: 100px; 
+    height: 100px;
+    border: 3px solid #333;
+    border-radius: 50%;
+    overflow: hidden; 
+    margin: auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* Animaciones */
+.card {
+    transition: transform 0.3s;
+    cursor: pointer; /* Opcional, para que el usuario sepa que puede interactuar con el card */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Ajusta este valor según la magnitud del zoom que desees */
+}
+
