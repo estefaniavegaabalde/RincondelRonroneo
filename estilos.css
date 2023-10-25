@@ -124,7 +124,7 @@ h3, .fuentesubtitulos {
 body {
     margin: 0;
     padding: 0;
-    background-image: url('/assets/imagenes/foto_inicio.jpg'); 
+
     background-size: cover;
     background-attachment: fixed;
 }

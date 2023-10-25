@@ -31,11 +31,10 @@
 
 $color-primario: rgb(113, 163, 113);
 $color-secundario: #fff; 
-$fuente-titulo: Elsie Swash Caps
 
 
 .fuentetitulo { 
-    font-family: $fuente-titulo, cursive;
+    font-family: 'Elsie Swash Caps', cursive;
     font-weight: 400;    
     font-size: 3rem;
     .fuentesubtitulos {
@@ -130,7 +129,7 @@ form input::placeholder {
 body {
     margin: 0;
     padding: 0;
-    background-image: url('/assets/imagenes/foto_inicio.jpg'); 
+     
     background-size: cover;
     background-attachment: fixed;
     /* Estilo para la sección de video de fondo */
