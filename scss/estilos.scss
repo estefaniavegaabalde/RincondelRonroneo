@@ -29,6 +29,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Elsie+Swash+Caps:wght@400;900&family=Martel+Sans:wght@200;900&display=swap');
 
 
+@mixin caja-redondeada($color-fondo, $color-texto, $radio: 10px, $padding: 10px) {
+    background-color: $color-fondo;
+    color: $color-texto;
+    border-radius: $radio;
+    padding: $padding;
+    text-align: center;
+}
+
+
 $color-primario: rgb(113, 163, 113);
 $color-secundario: #fff; 
 
@@ -50,11 +59,7 @@ $color-secundario: #fff;
         font-style: italic;
     }
     h2 {
-        background-color: rgb(97, 139, 97);  
-        color: $color-secundario; 
-        padding: 10px;
-        text-align: center;
-        border-radius: 10px;
+        @include caja-redondeada(rgb(97, 139, 97), $color-secundario);
     }
     .fuentemasgrande { 
         font-size: 5vw;
@@ -65,20 +70,12 @@ $color-secundario: #fff;
     }
     
     h1 {
-        background-color: $color-primario;
-        color: $color-secundario; 
-        padding: 10px;
-        text-align: center;
-        border-radius: 10px;
+        @include caja-redondeada($color-primario, $color-secundario);
     }
 }
 
 .card-title {
-    background-color: rgb(99, 143, 99); 
-    color: $color-secundario; 
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
+    @include caja-redondeada(rgb(99, 143, 99), $color-secundario);
 }
 
 form label {
