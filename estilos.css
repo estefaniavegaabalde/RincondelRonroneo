@@ -129,9 +129,35 @@ body {
     background-attachment: fixed;
 }
 
+@media (max-width: 768px) {
+    .video-background {
+        margin-top: 100px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .videopantallamaschica {
+        margin-top: 370px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .posicion_cards_pantalla_mas_chica {
+        margin-top: 200px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .texto_mas_pequeño {
+        font-size: 14px; /* o el tamaño que prefieras */
+    }
+}
+
+
 /* Estilo para la sección de video de fondo */
 .video-background {
-
+    
     width: 100%;
 
 }
