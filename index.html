@@ -5,8 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Hotel para gatos de lujo, comodidad y diversión. Suites amplias y atención personalizada. Rincón del Ronroneo, el paraíso felino.">
 <meta name="keywords" content="hotel para gatos, ronroneo, suites para gatos, lujo felino">
-<meta property="og:title" content="Equipo e Instalaciones | Rincón del Ronroneo">
-<meta property="og:description" content="Descubre nuestro equipo especializado y las instalaciones de lujo en Rincón del Ronroneo.">
 <title>Inicio | Rincón del Ronroneo</title>
 <link rel="stylesheet" href="estilos.css">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -50,15 +48,14 @@
 </header>
 <main>
     <section class="video-background">
-        <video autoplay loop muted>
+        <video autoplay loop muted class="position-absolute w-100 h-100" style="object-fit: cover; z-index: -1;">
             <source src="./assets/video_fondo_pagina.mp4" type="video/mp4">
         </video>
-        <div class="contenedor">
-            <div class="overlay">
-                <h1 class="fuentetitulo animate__animated animate__fadeInRight">Rincon del Ronroneo | Hotel para gatos</h1>
-                <div class="texto">
-                    <h2 class="fuentesubtitulos animate__animated animate__fadeInLeft" style="animation-delay: 1s;">Inicio y bienvenida</h2>
-                    <p class="fuenteparrafo animate__animated animate__fadeInUp" style="animation-delay: 2s;">¡Bienvenidos al Rincón del Ronroneo!</p>
+        <div class="container d-flex justify-content-center align-items-center vh-100">
+            <div class="text-center text-white"> <!-- Agregado text-white para hacer el texto blanco y mejorar visibilidad -->
+                <h1 class="fuentetitulo display-4 animate__animated animate__fadeInRight">Rincon del Ronroneo | Hotel para gatos</h1>
+                <h2 class="fuentesubtitulos h3 mt-3 animate__animated animate__fadeInLeft" style="animation-delay: 1s;">Inicio y bienvenida</h2>
+                <p class="fuenteparrafo animate__animated animate__fadeInUp" style="animation-delay: 2s;">¡Bienvenidos al Rincón del Ronroneo!</p>
 
                     <p class="fuenteparrafo animate__animated animate__fadeInUp" style="animation-delay: 3s;">En nuestro paraíso felino, encontrarás lujo, comodidad y diversión para que tus gatos disfruten de unas vacaciones inolvidables. Nuestras amplias suites con camas mullidas y áreas de juego llenas de juguetes son ideales para satisfacer las necesidades y deseos de tus felinos. Nuestro personal altamente capacitado está siempre presente para brindar atención personalizada y trabajamos con veterinarios de confianza para garantizar la salud y el bienestar de tus gatos. </p>
                         
@@ -126,7 +123,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.396579648541!2d-58.47962812425915!3d-34.61941717294867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9ee63454055%3A0x9d97688be35c9184!2sAv.%20Juan%20Bautista%20Justo%205800%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1697069433725!5m2!1ses!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 
-                <a href="./proyectos/reservas.html" class="btn btn-primary mt-3" style="background-color: #4CAF50; border-color: #006400;">Reserva</a>
+                <a href="./proyectos/reservas.html" class="btn btn-primary mt-3" style="background-color: rgb(97, 143, 97); border-color: #006400;">Reserva</a>
             </div>
         </div>
     </section>
@@ -166,10 +163,11 @@
             <div class="col-md-4">
                 <h5>Enlaces rápidos</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-light">Inicio</a></li>
-                    <li><a href="#" class="text-light">Servicios</a></li>
-                    <li><a href="#" class="text-light">Contacto</a></li>
-                    <li><a href="#" class="text-light">Términos y condiciones</a></li>
+                    <li><a href="./index.html" class="text-light">Inicio</a></li>
+                    <li><a href="./contactanos.html" class="text-light">Contactanos</a></li>
+                    <li><a href="./instalaciones_y_equipos.html" class="text-light">Equipo e instalaciones</a></li>
+                    <li><a href="./Historias_felinas.html" class="text-light">Historias Felinas</a></li>
+                    <li><a href="./error_404.html" class="text-light">Reservas</a></li>
                 </ul>
             </div>
         </div>

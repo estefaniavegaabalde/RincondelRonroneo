@@ -131,9 +131,9 @@ body {
 
 /* Estilo para la sección de video de fondo */
 .video-background {
-    position: relative;
+
     width: 100%;
-    height: 100vh;
+
 }
 
 /* Estilo para el video */
